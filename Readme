@@ -1,29 +1,145 @@
-Проект "HeadHunter: Оценка уровня заработной платы соискателей
-
-![HeadHunter Logo](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/HH_logo_2018.svg/640px-HH_logo_2018.svg.png)
-Описание проекта
-
-Проект "HeadHunter: Оценка уровня заработной платы соискателей" представляет собой исследование данных с сайта поиска вакансий hh.ru, с целью построения модели, которая будет автоматически определять примерный уровень заработной платы соискателей, исходя из информации, которую они указывают о себе в резюме.
-
-В рамках проекта мы проведем анализ структуры данных, преобразуем данные, проведем разведывательный анализ и очистим данные от возможных ошибок и выбросов.
-Организационная информация
-
-Проект состоит из четырех частей:
-
-    1)Базовый анализ структуры данных: В этой части мы изучим основные характеристики данных и их структуру.
-
-    2)Преобразование данных: Здесь мы выполним предобработку данных, заполним пропущенные значения, и приведем данные к нужным форматам.
-
-    3)Разведывательный анализ: В этой части исследования мы проведем анализ данных, построим графики, выявим корреляции и сделаем выводы о данных.
-
-    4)Очистка данных: Здесь мы устраним ошибки, выбросы и несоответствия в данных для более точного построения модели.
-
-
-
-Контакты
-
-Если у вас возникли вопросы по проекту или его выполнению, вы можете связаться с нами:
-
-    Email: aleksandr.denissov@brave.ee
-    
-[Скачать файл с данными с Google Диска]https://drive.google.com/file/d/1CNNakCI_B4v6iOrso_jSFLGKVNeh_rwE/view?usp=sharing
+# 💰 Resume Salary Prediction
+ 
+## 📌 Project Overview
+ 
+This project analyzes resume data from HeadHunter and explores factors that influence candidate salary expectations.
+ 
+The objective of the project is to investigate resume characteristics, perform data cleaning and exploratory analysis, and prepare data for future salary prediction models.
+ 
+The project focuses on identifying relationships between candidate profiles and expected salary levels using real-world labor market data.
+ 
+---
+ 
+## 🎯 Project Objectives
+ 
+- Analyze resume data from HeadHunter
+- Explore candidate salary expectations
+- Clean and preprocess raw data
+- Identify patterns and correlations
+- Detect outliers and inconsistencies
+- Prepare data for machine learning applications
+ 
+---
+ 
+## 📊 Dataset
+ 
+The dataset contains information about job seekers, including:
+ 
+- Expected salary
+- Education level
+- Employment preferences
+- Work experience
+- Geographic location
+- Professional skills
+- Age and demographic information
+ 
+---
+ 
+## 🔍 Project Workflow
+ 
+### 1. Data Structure Analysis
+ 
+- Dataset overview
+- Feature inspection
+- Data type validation
+- Missing value analysis
+ 
+### 2. Data Transformation
+ 
+- Feature engineering
+- Missing value handling
+- Data normalization
+- Format standardization
+ 
+### 3. Exploratory Data Analysis (EDA)
+ 
+- Salary distribution analysis
+- Correlation analysis
+- Visualization of key relationships
+- Candidate profile exploration
+ 
+### 4. Data Cleaning
+ 
+- Outlier detection
+- Error correction
+- Data consistency validation
+ 
+---
+ 
+## 📈 Key Insights
+ 
+The analysis reveals important relationships between:
+ 
+- Salary expectations and experience
+- Salary expectations and education
+- Geographic location and compensation
+- Candidate qualifications and market value
+ 
+---
+ 
+## 🛠 Technologies
+ 
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Plotly
+- Jupyter Notebook
+ 
+---
+ 
+## 🚀 Installation
+ 
+Clone the repository:
+ 
+```bash
+git clone https://github.com/Alex1988Den/Resume-Salary-Prediction.git
+cd Resume-Salary-Prediction
+```
+ 
+Install dependencies:
+ 
+```bash
+pip install -r requirements.txt
+```
+ 
+Launch Jupyter Notebook:
+ 
+```bash
+jupyter notebook
+```
+ 
+Open:
+ 
+```text
+Resume_Salary_Prediction.ipynb
+```
+ 
+and run all cells.
+ 
+---
+ 
+## 💼 Business Value
+ 
+This project demonstrates how resume and labor market data can be analyzed to estimate salary expectations and better understand job market trends.
+ 
+The results may be useful for:
+ 
+- Recruiters
+- HR specialists
+- Job seekers
+- Labor market analysts
+- Data Science professionals
+ 
+---
+ 
+## 👨‍💻 Author
+ 
+Developed by **Aleksandr Denissov**
+ 
+📧 Email: aleksandr.denissov@brave.ee
+ 
+---
+ 
+⭐ If you find this project useful, feel free to leave a star on GitHub.
